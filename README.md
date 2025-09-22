@@ -13,10 +13,10 @@ Este proyecto desarrolla el primer marco genómico integrativo que identifica si
 ### Citación y Uso Académico
 
 **Citación BibTeX:**
-@misc{murzi2024autism,
+@misc{murzi2025autism,
   title={Desenredando la arquitectura genética del autismo: un enfoque multi-ómico hacia las neuronas espejo},
   author={Murzi, Ana Sol},
-  year={2024},
+  year={2025},
   institution={Universidad Nacional de Entre Ríos},
   type={Investigación de Grado},
   url={https://github.com/yourusername/autism-mirror-neurons},
@@ -24,7 +24,7 @@ Este proyecto desarrolla el primer marco genómico integrativo que identifica si
 }
 
 **Citación APA:**
-Murzi, A. S. (2024). Desenredando la arquitectura genética del autismo: 
+Murzi, A. S. (2025). Desenredando la arquitectura genética del autismo: 
 un enfoque multi-ómico hacia las neuronas espejo [Software]. 
 Universidad Nacional de Entre Ríos. 
 https://github.com/yourusername/autism-mirror-neurons
