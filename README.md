@@ -1,6 +1,6 @@
 # Desenredando la Arquitectura Genética del Autismo: Un enfoque multi-ómico hacia las neuronas espejo
 ### Trabajo de investigación presentado en el 10° Simposio Argentino de Jóvenes Investigadores en Bioinformática (10SAJIB)
-### Autor: Ana Sol Murzi - Facultad de Ingeniería, Universidad Nacional de Entre Ríos (FIUNER)
+### Autor: Ana Sol Murzi
 
 Este proyecto desarrolla el primer marco genómico integrativo que identifica sistemáticamente genes de riesgo de autismo operando dentro de circuitos de neuronas espejo. Mediante análisis multi-ómico combinando GWAS, eQTL, TWAS y colocalización bayesiana, se identificaron 19 señales de alta confianza en 6 genes, con FOXP2 emergiendo como regulador maestro.
 
@@ -26,7 +26,6 @@ Este proyecto desarrolla el primer marco genómico integrativo que identifica si
 **Citación APA:**
 Murzi, A. S. (2025). Desenredando la arquitectura genética del autismo: 
 un enfoque multi-ómico hacia las neuronas espejo [Software]. 
-Universidad Nacional de Entre Ríos. 
 https://github.com/yourusername/autism-mirror-neurons
 
 ### Reconocimientos
