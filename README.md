@@ -1,5 +1,5 @@
 # Unraveling the genetic architecture of autism: a multi-omic approach towards mirror neurons
-**Author: Murzi Ana SolFacultad de Ingeniería de la Universidad Nacional de Entre Ríos (FIUNER)**
+**Author: Murzi Ana Sol**
 
 ### Overview
 
