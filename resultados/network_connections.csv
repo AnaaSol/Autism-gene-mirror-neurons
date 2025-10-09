@@ -1,0 +1,15 @@
+gene1,gene2,connection_type,weight,evidence_strength,details,color
+CACNA1C,CHD8,Statistical Similarity,1.5597620803945131,Moderate,Profile similarity=0.780,#F39C12
+CACNA1C,CNTNAP2,Statistical Similarity,1.509025177406886,Moderate,Profile similarity=0.755,#F39C12
+CACNA1C,FOXP2,Statistical Similarity,1.668883814231804,Strong,Profile similarity=0.834,#F39C12
+CACNA1C,THEMIS,Statistical Similarity,1.490848064021172,Moderate,Profile similarity=0.745,#F39C12
+CHD8,CNTNAP2,Statistical Similarity,1.2825964303457063,Moderate,Profile similarity=0.641,#F39C12
+CHD8,FOXP2,Statistical Similarity,1.4424550671706242,Moderate,Profile similarity=0.721,#F39C12
+CHD8,THEMIS,Statistical Similarity,1.931085983626659,Strong,Profile similarity=0.966,#F39C12
+CNTNAP2,FOXP2,Statistical Similarity,1.8232379629510442,Strong,Profile similarity=0.912,#F39C12
+CNTNAP2,THEMIS,Statistical Similarity,1.351510446719047,Moderate,Profile similarity=0.676,#F39C12
+FOXP2,THEMIS,Statistical Similarity,1.5113690835439655,Moderate,Profile similarity=0.756,#F39C12
+CACNA1C,CNTNAP2,Coloc Evidence,2.436541340616564,Moderate,"Similar coloc evidence (scores: 15.9, 9.7)",#2ECC71
+CHD8,CNTNAP2,Coloc Evidence,2.5236673809937504,Moderate,"Similar coloc evidence (scores: 6.1, 9.7)",#2ECC71
+CHD8,FOXP2,Coloc Evidence,2.6634290418405393,Moderate,"Similar coloc evidence (scores: 6.1, 9.2)",#2ECC71
+CNTNAP2,FOXP2,Coloc Evidence,3.7901026704278813,Strong,"Similar coloc evidence (scores: 9.7, 9.2)",#2ECC71
