@@ -1,7 +1,4 @@
-# ===============================================================================
-# SEMANA 4: INTEGRACIÃ“N DE DATOS Y MAPEO GENÃ“MICO
 # IntegraciÃ³n de genes de neuronas espejo con datos GWAS y expresiÃ³n
-# ===============================================================================
 
 # Cargar librerÃ­as necesarias
 library(GenomicRanges)
@@ -14,10 +11,10 @@ setup_biomart <- function(retries = 3) {
   for(i in 1:retries) {
     tryCatch({
       ensembl <- useMart("ensembl", dataset = "hsapiens_gene_ensembl")
-      cat("âœ“ ConexiÃ³n a BioMart establecida exitosamente\n")
+      cat("ConexiÃ³n a BioMart establecida exitosamente\n")
       return(ensembl)
     }, error = function(e) {
-      cat("âš  Intento", i, "fallido. Reintentando...\n")
+      cat("Intento", i, "fallido. Reintentando...\n")
       Sys.sleep(2)
     })
   }
@@ -26,9 +23,7 @@ setup_biomart <- function(retries = 3) {
 
 ensembl <- setup_biomart()
 
-# ===============================================================================
-# 1. MAPEO DE GENES DE NEURONAS ESPEJO EN DATASETS
-# ===============================================================================
+# Mapeo de genes de neuronas espejo en datasets
 
 # Cargar genes de neuronas espejo curados
 cat("Cargando genes de neuronas espejo...\n")
@@ -36,7 +31,7 @@ mirror_genes <- tryCatch({
   fread("../../results/integration/mirror_neuron_summary_final.csv")
 }, error = function(e) {
   # Si no existe, usar la lista curada original basada en evidencia
-  cat("âš  Archivo no encontrado, usando lista curada original\n")
+  cat("Archivo no encontrado, usando lista curada original\n")
   data.table(
     gene_symbol = c("THEMIS", "UBE2F", "CACNA1C", "FOXP1", "FOXP2", 
                     "NEUROG1", "NEUROG2", "ZBTB18", "POU3F2", "CHD8", 
@@ -83,8 +78,8 @@ print(head(mirror_genes))
 
 # FunciÃ³n mejorada para mapeo de genes entre datasets
 map_mirror_genes <- function(mirror_gene_list, expression_data, gwas_data, ensembl_mart) {
-  
-  cat("\n Iniciando mapeo de genes de neuronas espejo...\n")
+
+  cat("\nIniciando mapeo de genes de neuronas espejo...\n")
   
   # Obtener anotaciones genÃ³micas con manejo robusto de errores
   get_annotations_robust <- function(genes, mart, chunk_size = 50) {
@@ -112,7 +107,7 @@ map_mirror_genes <- function(mirror_gene_list, expression_data, gwas_data, ensem
         Sys.sleep(0.5)  # Evitar sobrecarga del servidor
         
       }, error = function(e) {
-        cat("âš  Error en chunk", i, ":", e$message, "\n")
+        cat("Error en chunk", i, ":", e$message, "\n")
       })
     }
     
@@ -204,9 +199,7 @@ for(tissue in names(expr_norm_list)) {
   }
 }
 
-# ===============================================================================
-# 2. DEFINICIÃ“N DE VENTANAS CIS-eQTL
-# ===============================================================================
+# Definición de ventanas cis-eQTL
 
 cat("\nDefiniendo ventanas cis-eQTL...\n")
 
@@ -253,7 +246,7 @@ define_cis_windows <- function(gene_annotations, window_size = 1e6, tss_only = T
   gene_gr <- gene_gr[width(gene_gr) > 0]
   
   cat("Creadas", length(gene_gr), "ventanas cis-eQTL\n")
-  cat("  - TamaÃ±o de ventana: Â±", format(window_size/1e6, digits=1), "Mb\n")
+  cat("  - Tamano de ventana: ±", format(window_size/1e6, digits=1), "Mb\n")
   cat("  - Basado en:", ifelse(tss_only, "TSS", "gene body"), "\n")
   
   return(gene_gr)
@@ -279,9 +272,7 @@ for(tissue in names(mirror_mapping)) {
   }
 }
 
-# ===============================================================================
-# 3. FILTRADO DE SNPs GWAS POR REGIONES DE INTERÃ‰S
-# ===============================================================================
+# Filtrado de SNPs GWAS por regiones de interés
 
 cat("\nFiltrando SNPs GWAS por regiones cis...\n")
 
@@ -360,7 +351,7 @@ cis_snps_by_tissue <- list()
 
 for(tissue in names(mirror_cis_windows)) {
   if(!is.null(mirror_cis_windows[[tissue]])) {
-    cat("\niltrando SNPs para tejido:", tissue, "\n")
+    cat("\nFiltrando SNPs para tejido:", tissue, "\n")
     
     cis_snps_by_tissue[[tissue]] <- list()
     
@@ -376,12 +367,9 @@ for(tissue in names(mirror_cis_windows)) {
   }
 }
 
-# ===============================================================================
-# 4. RESUMEN Y ESTADÃSTICAS DE INTEGRACIÃ“N
-# ===============================================================================
+# Resumen y estadísticas de integración
 
-cat("\nRESUMEN DE INTEGRACIÃ“N DE DATOS\n")
-cat(paste(rep("=", 50), collapse=""), "\n")
+cat("\nResumen de integracion de datos\n")
 
 # FunciÃ³n para generar resumen detallado
 generate_integration_summary <- function(mapping_results, cis_results) {
@@ -419,7 +407,7 @@ integration_summary <- generate_integration_summary(mirror_mapping, cis_snps_by_
 
 # Mostrar resumen
 for(tissue in names(integration_summary)) {
-  cat("\nðŸ§ ", toupper(tissue), "\n")
+  cat("\n", toupper(tissue), "\n")
   stats <- integration_summary[[tissue]]
   
   for(stat_name in names(stats)) {
