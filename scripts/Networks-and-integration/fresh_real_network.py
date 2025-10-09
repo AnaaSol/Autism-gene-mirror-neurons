@@ -26,11 +26,12 @@ class FreshRealNetworkAnalysis:
     """
     
     def __init__(self):
-        self.base_dir = Path("/home/ana/Desktop/autism_mirror_neurons")
+        self.base_dir = Path("/home/ana/Desktop/Autism-gene-mirror-neurons")
         self.eqtl_file = self.base_dir / "results" / "real_eqtl_results_improved" / "gtex_real_eqtl_results_improved.csv"
-        self.output_dir = Path("/home/ana/Desktop/autism_mirror_neurons/results/python_fresh")
+        self.output_dir = self.base_dir / "resultados"
         self.output_dir.mkdir(exist_ok=True)
-        self.plots_dir = Path("/home/ana/Desktop/autism_mirror_neurons/plots/python_fresh")
+        self.plots_dir = self.base_dir / "resultados" / "plots"
+        self.plots_dir.mkdir(exist_ok=True)
         
         # Network for storing connections
         self.network = nx.Graph()
@@ -222,7 +223,7 @@ class FreshRealNetworkAnalysis:
             )
             
             # Save to CSV
-            output_file = self.output_dir / "fresh_network_connections.csv"
+            output_file = self.output_dir / "network_connections.csv"
             connections_df.to_csv(output_file, index=False)
             logger.info(f"Saved {len(connections_df)} unique connections to {output_file}")
             
@@ -281,12 +282,12 @@ class FreshRealNetworkAnalysis:
         
         # Save plot
         plt.tight_layout()
-        plt.savefig(self.plots_dir / "fresh_network_visualization.png", 
+        plt.savefig(self.plots_dir / "network_visualization.png",
                    dpi=300, bbox_inches='tight')
-        plt.savefig(self.plots_dir / "fresh_network_visualization.pdf", 
+        plt.savefig(self.plots_dir / "network_visualization.pdf",
                    bbox_inches='tight')
-        
-        logger.info("Fresh network visualization saved")
+
+        logger.info("Network visualization saved")
     
     def generate_network_summary(self):
         """Generate network analysis summary"""
@@ -311,10 +312,10 @@ class FreshRealNetworkAnalysis:
             summary['gene_degrees'][node] = self.network.degree[node]
         
         # Save summary
-        summary_file = self.output_dir / "fresh_network_summary.json"
+        summary_file = self.output_dir / "network_summary.json"
         with open(summary_file, 'w') as f:
             json.dump(summary, f, indent=2)
-        
+
         logger.info(f"Network summary saved to {summary_file}")
 
         # Print summary

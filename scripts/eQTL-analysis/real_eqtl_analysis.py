@@ -25,13 +25,13 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 logger = logging.getLogger(__name__)
 
 class RealEQTLAnalysis:
-    def __init__(self, base_dir="~/Desktop/autism_mirror_neurons"):
+    def __init__(self, base_dir="~/Desktop/Autism-gene-mirror-neurons"):
         self.base_dir = Path(base_dir).expanduser()
         self.data_dir = self.base_dir / "data"
         self.raw_dir = self.data_dir / "raw"
         self.processed_dir = self.data_dir / "processed"
-        self.results_dir = self.base_dir / "real_eqtl_results"
-        
+        self.results_dir = self.base_dir / "resultados"
+
         # Create results directory
         self.results_dir.mkdir(parents=True, exist_ok=True)
         
@@ -479,7 +479,7 @@ class RealEQTLAnalysis:
         output_file = self.results_dir / "real_eqtl_results.csv"
         results_df.to_csv(output_file, index=False)
         logger.info(f"Saved combined results to: {output_file}")
-        
+
         # Save summary statistics
         summary_stats = self.create_summary_statistics(results_df)
         summary_file = self.results_dir / "real_eqtl_summary.txt"

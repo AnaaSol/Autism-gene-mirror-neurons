@@ -17,10 +17,10 @@ logger = logging.getLogger(__name__)
 
 class ScientificallyJustifiedColocalization:
     
-    def __init__(self, base_dir="/home/ana/Desktop/autism_mirror_neurons"):
+    def __init__(self, base_dir="/home/ana/Desktop/Autism-gene-mirror-neurons"):
         self.base_dir = Path(base_dir)
         self.results_dir = self.base_dir / "results" / "real_eqtl_results_improved"
-        self.output_dir = self.base_dir / "results" / "scientifically_justified_coloc"
+        self.output_dir = self.base_dir / "resultados" / "colocalization-results"
         self.output_dir.mkdir(parents=True, exist_ok=True)
         
         # Gene information with coordinates (hg38)
@@ -371,23 +371,23 @@ class ScientificallyJustifiedColocalization:
     
     def save_results(self):
         """Save all results"""
-        
+
         # Detailed results
-        detailed_file = self.output_dir / "scientifically_justified_detailed.csv"
+        detailed_file = self.output_dir / "detailed-results.csv"
         self.results_df.to_csv(detailed_file, index=False)
         logger.info(f"Saved detailed results: {detailed_file}")
-        
+
         # Gene summary
-        summary_file = self.output_dir / "scientifically_justified_gene_summary.csv"
+        summary_file = self.output_dir / "summary.csv"
         self.gene_summary_df.to_csv(summary_file, index=False)
         logger.info(f"Saved gene summary: {summary_file}")
-        
+
         # Methodology report
         self.create_methodology_report()
     
     def create_methodology_report(self):
         """Create detailed methodology report"""
-        report_file = self.output_dir / "scientific_methodology_report.txt"
+        report_file = self.output_dir / "methodology_report.txt"
         
         with open(report_file, 'w') as f:
             f.write("SCIENTIFICALLY JUSTIFIED COLOCALIZATION METHODOLOGY\n")

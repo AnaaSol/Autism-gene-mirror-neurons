@@ -253,7 +253,7 @@ class FunctionalVariantAnalysis:
         
         return analysis_results
     
-    def export_for_validation(self, output_file="functional_variants_for_validation.csv"):
+    def export_for_validation(self, output_file="/home/ana/Desktop/Autism-gene-mirror-neurons/resultados/functional_variants_for_validation.csv"):
         """Exportar variantes priorizadas para validación"""
         
         analysis_results = []
