@@ -1,0 +1,33 @@
+cell_type,category
+Upper rhombic lip,Neuron
+Splatter,Neuron
+Lower rhombic lip,Neuron
+Mammillary body,Neuron
+Thalamic excitatory,Neuron
+Amygdala excitatory,Neuron
+Medium spiny neuron,Neuron
+Eccentric medium spiny neuron,Neuron
+Miscellaneous,Neuron
+Cerebellar inhibitory,Neuron
+Midbrain-derived inhibitory,Neuron
+CGE interneuron,Neuron
+LAMP5-LHX6 and Chandelier,Neuron
+MGE interneuron,Neuron
+Deep-layer near-projecting,Neuron
+Deep-layer corticothalamic and 6b,Neuron
+Hippocampal CA1-3,Neuron
+Upper-layer intratelencephalic,Neuron
+Deep-layer intratelencephalic,Neuron
+Hippocampal dentate gyrus,Neuron
+Hippocampal CA4,Neuron
+oligodendrocyte,Non-neuron
+astrocyte,Non-neuron
+Bergmann glial cell,Non-neuron
+oligodendrocyte precursor cell,Non-neuron
+ependymal cell,Non-neuron
+choroid plexus epithelial cell,Non-neuron
+fibroblast,Non-neuron
+pericyte,Non-neuron
+vascular associated smooth muscle cell,Non-neuron
+endothelial cell,Non-neuron
+central nervous system macrophage,Non-neuron

@@ -1,0 +1,32 @@
+"gene_symbol","gene_id","variant_id","pval_nominal","slope","slope_se","maf","tissue","tissue_code","Tissue_Match","Mean_Neuron","N_Samples"
+"ALDOA","ENSG00000149925.17","chr16_30558028_C_T_b38",2.08875e-05,-0.605184,0.137213,0.0171429,"Frontal Cortex (BA9)","Brain_Frontal_Cortex_BA9","Brain - Frontal Cortex (BA9)",0.0270014691439907,209
+"CACNA1C","ENSG00000151067.21","chr12_2372770_T_C_b38",2.29185e-15,-0.95343,0.106389,0.148571,"Cerebellar Hemisphere","Brain_Cerebellar_Hemisphere","Brain - Cerebellar Hemisphere",0.0308761677092211,215
+"CHD8","ENSG00000100888.12","chr14_21336201_A_C_b38",2.67698e-09,-0.424607,0.0665977,0.108571,"Cerebellar Hemisphere","Brain_Cerebellar_Hemisphere","Brain - Cerebellar Hemisphere",0.0308761677092211,215
+"CNTNAP2","ENSG00000174469.19","chr7_145525925_A_G_b38",6.66075e-06,0.515629,0.110799,0.0146341,"Cortex","Brain_Cortex","Brain - Cortex",0.0261328503819253,254
+"CNTNAP2","ENSG00000174469.19","chr7_145560309_A_G_b38",6.66075e-06,0.515629,0.110799,0.0146341,"Cortex","Brain_Cortex","Brain - Cortex",0.0261328503819253,254
+"FOXP2","ENSG00000128573.24","chr7_114238316_G_C_b38",1.70208e-05,-0.281236,0.0627926,0.323129,"Anterior cingulate cortex (BA24)","Brain_Anterior_cingulate_cortex_BA24","Brain - Anterior cingulate cortex (BA24)",0.0232371442100046,176
+"MAPK3","ENSG00000102882.11","chr16_30108980_C_T_b38",1.31898e-06,0.284941,0.0559853,0.363946,"Anterior cingulate cortex (BA24)","Brain_Anterior_cingulate_cortex_BA24","Brain - Anterior cingulate cortex (BA24)",0.0232371442100046,176
+"MAPK3","ENSG00000102882.11","chr16_30369165_T_C_b38",4.54228e-05,0.185023,0.0438954,0.42,"Cerebellar Hemisphere","Brain_Cerebellar_Hemisphere","Brain - Cerebellar Hemisphere",0.0308761677092211,215
+"MAPK3","ENSG00000102882.11","chr16_30123335_T_C_b38",1.07173e-19,0.451457,0.0435649,0.47561,"Cortex","Brain_Cortex","Brain - Cortex",0.0261328503819253,254
+"MAPK3","ENSG00000102882.11","chr16_30130664_T_C_b38",1.07173e-19,0.451457,0.0435649,0.47561,"Cortex","Brain_Cortex","Brain - Cortex",0.0261328503819253,254
+"MAPK3","ENSG00000102882.11","chr16_30123335_T_C_b38",3.48182e-13,0.379945,0.0471023,0.497143,"Frontal Cortex (BA9)","Brain_Frontal_Cortex_BA9","Brain - Frontal Cortex (BA9)",0.0270014691439907,209
+"MAPK3","ENSG00000102882.11","chr16_30130664_T_C_b38",3.48182e-13,0.379945,0.0471023,0.497143,"Frontal Cortex (BA9)","Brain_Frontal_Cortex_BA9","Brain - Frontal Cortex (BA9)",0.0270014691439907,209
+"OXTR","ENSG00000180914.10","chr3_8766742_G_GC_b38",7.21691e-08,-0.39625,0.0690914,0.367347,"Anterior cingulate cortex (BA24)","Brain_Anterior_cingulate_cortex_BA24","Brain - Anterior cingulate cortex (BA24)",0.0232371442100046,176
+"OXTR","ENSG00000180914.10","chr3_8766747_T_C_b38",7.21691e-08,-0.39625,0.0690914,0.367347,"Anterior cingulate cortex (BA24)","Brain_Anterior_cingulate_cortex_BA24","Brain - Anterior cingulate cortex (BA24)",0.0232371442100046,176
+"OXTR","ENSG00000180914.10","chr3_8785285_G_A_b38",1.42403e-05,0.383388,0.0851058,0.174286,"Cerebellar Hemisphere","Brain_Cerebellar_Hemisphere","Brain - Cerebellar Hemisphere",0.0308761677092211,215
+"OXTR","ENSG00000180914.10","chr3_8785287_C_A_b38",1.42403e-05,0.383388,0.0851058,0.174286,"Cerebellar Hemisphere","Brain_Cerebellar_Hemisphere","Brain - Cerebellar Hemisphere",0.0308761677092211,215
+"OXTR","ENSG00000180914.10","chr3_8769477_A_G_b38",6.44325e-14,0.498576,0.0608047,0.441463,"Cortex","Brain_Cortex","Brain - Cortex",0.0261328503819253,254
+"OXTR","ENSG00000180914.10","chr3_8769477_A_G_b38",6.02352e-12,0.426084,0.0564767,0.465714,"Frontal Cortex (BA9)","Brain_Frontal_Cortex_BA9","Brain - Frontal Cortex (BA9)",0.0270014691439907,209
+"PPP4C","ENSG00000149923.13","chr16_30157946_G_A_b38",1.27194e-05,0.809514,0.178606,0.00857143,"Cerebellar Hemisphere","Brain_Cerebellar_Hemisphere","Brain - Cerebellar Hemisphere",0.0308761677092211,215
+"SHANK3","ENSG00000251322.7","chr22_50251471_T_C_b38",1.10441e-05,0.4401,0.097051,0.0317073,"Cortex","Brain_Cortex","Brain - Cortex",0.0261328503819253,254
+"TAOK2","ENSG00000149930.17","chr16_30546955_T_C_b38",1.90923e-06,0.699386,0.140441,0.0228571,"Cerebellar Hemisphere","Brain_Cerebellar_Hemisphere","Brain - Cerebellar Hemisphere",0.0308761677092211,215
+"TAOK2","ENSG00000149930.17","chr16_30552022_T_C_b38",1.90923e-06,0.699386,0.140441,0.0228571,"Cerebellar Hemisphere","Brain_Cerebellar_Hemisphere","Brain - Cerebellar Hemisphere",0.0308761677092211,215
+"TAOK2","ENSG00000149930.17","chr16_30559490_A_ATGGTCTATT_b38",1.90923e-06,0.699386,0.140441,0.0228571,"Cerebellar Hemisphere","Brain_Cerebellar_Hemisphere","Brain - Cerebellar Hemisphere",0.0308761677092211,215
+"TAOK2","ENSG00000149930.17","chr16_30560595_C_T_b38",1.90923e-06,0.699386,0.140441,0.0228571,"Cerebellar Hemisphere","Brain_Cerebellar_Hemisphere","Brain - Cerebellar Hemisphere",0.0308761677092211,215
+"TBX6","ENSG00000149922.10","chr16_30091839_C_A_b38",1.7897e-06,-0.325221,0.064797,0.496599,"Anterior cingulate cortex (BA24)","Brain_Anterior_cingulate_cortex_BA24","Brain - Anterior cingulate cortex (BA24)",0.0232371442100046,176
+"TBX6","ENSG00000149922.10","chr16_30091070_G_A_b38",3.22669e-07,1.07486,0.19987,0.0342857,"Cerebellar Hemisphere","Brain_Cerebellar_Hemisphere","Brain - Cerebellar Hemisphere",0.0308761677092211,215
+"TBX6","ENSG00000149922.10","chr16_30091839_C_A_b38",4.08325e-15,-0.397992,0.045949,0.473171,"Cortex","Brain_Cortex","Brain - Cortex",0.0261328503819253,254
+"TBX6","ENSG00000149922.10","chr16_30091839_C_A_b38",1.26449e-11,-0.442947,0.0598051,0.488571,"Frontal Cortex (BA9)","Brain_Frontal_Cortex_BA9","Brain - Frontal Cortex (BA9)",0.0270014691439907,209
+"THEMIS","ENSG00000172673.10","chr6_128350342_A_C_b38",5.09778e-06,-0.249605,0.0525314,0.168571,"Frontal Cortex (BA9)","Brain_Frontal_Cortex_BA9","Brain - Frontal Cortex (BA9)",0.0270014691439907,209
+"YPEL3","ENSG00000090238.11","chr16_30095964_A_T_b38",6.66763e-23,0.409892,0.0343018,0.391429,"Cerebellar Hemisphere","Brain_Cerebellar_Hemisphere","Brain - Cerebellar Hemisphere",0.0308761677092211,215
+"YPEL3","ENSG00000090238.11","chr16_30095964_A_T_b38",7.51043e-09,0.184664,0.0303013,0.434146,"Cortex","Brain_Cortex","Brain - Cortex",0.0261328503819253,254

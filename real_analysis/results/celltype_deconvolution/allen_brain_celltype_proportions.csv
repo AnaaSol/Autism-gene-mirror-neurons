@@ -1,0 +1,33 @@
+cell_type,category,count,proportion
+Upper rhombic lip,Neuron,137162,0.04071032485570098
+Splatter,Neuron,291833,0.0866174030242617
+Lower rhombic lip,Neuron,52650,0.01562676691541868
+Mammillary body,Neuron,16602,0.004927551459255097
+Thalamic excitatory,Neuron,85546,0.025390453989485397
+Amygdala excitatory,Neuron,109452,0.032485866902685755
+Medium spiny neuron,Neuron,152189,0.045170408928597396
+Eccentric medium spiny neuron,Neuron,40144,0.011914927465385895
+Miscellaneous,Neuron,25071,0.007441190376760905
+Cerebellar inhibitory,Neuron,14411,0.00427725238400947
+Midbrain-derived inhibitory,Neuron,126782,0.03762949217607998
+CGE interneuron,Neuron,227671,0.06757382052042328
+LAMP5-LHX6 and Chandelier,Neuron,45118,0.013391233992210065
+MGE interneuron,Neuron,222434,0.06601945436019445
+Deep-layer near-projecting,Neuron,18856,0.0055965492299550725
+Deep-layer corticothalamic and 6b,Neuron,78396,0.023268300457761872
+Hippocampal CA1-3,Neuron,74979,0.022254118832880854
+Upper-layer intratelencephalic,Neuron,455006,0.13504791466509003
+Deep-layer intratelencephalic,Neuron,228467,0.0678100770534655
+Hippocampal dentate gyrus,Neuron,67533,0.020044111112990873
+Hippocampal CA4,Neuron,10654,0.0031621571646129267
+oligodendrocyte,Non-neuron,494966,0.14690823006756165
+astrocyte,Non-neuron,155025,0.04601214702873277
+Bergmann glial cell,Non-neuron,8041,0.002386606510292148
+oligodendrocyte precursor cell,Non-neuron,105734,0.031382347066189524
+ependymal cell,Non-neuron,5882,0.001745805185118569
+choroid plexus epithelial cell,Non-neuron,7689,0.002282131259499605
+fibroblast,Non-neuron,9156,0.002717543739365117
+pericyte,Non-neuron,3693,0.001096099719252444
+vascular associated smooth muscle cell,Non-neuron,1074,0.0003187682367931559
+endothelial cell,Non-neuron,5165,0.0015329962225667136
+central nervous system macrophage,Non-neuron,91838,0.027257949097402097

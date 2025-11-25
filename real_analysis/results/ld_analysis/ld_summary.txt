@@ -1,0 +1,88 @@
+REAL LD CALCULATION SUMMARY
+==================================================
+
+Date: 2025-11-24 19:02:09.947094
+Method: LDlink API (NIH/NCI)
+Reference: 1000 Genomes Phase 3
+Population: CEU (European)
+Genome Build: grch38_high_coverage
+
+PER-GENE SUMMARY:
+
+CACNA1C:
+  Variants: 146
+  Mean r²: 0.489
+  Max r²: 1.000
+  High LD (r² > 0.8): 2710 pairs
+
+CHD8:
+  Variants: 19
+  Mean r²: 0.644
+  Max r²: 1.000
+  High LD (r² > 0.8): 38 pairs
+
+CNTNAP2:
+  Variants: 43
+  Mean r²: 0.175
+  Max r²: 1.000
+  High LD (r² > 0.8): 35 pairs
+
+FOXP2:
+  Variants: 36
+  Mean r²: 0.921
+  Max r²: 1.000
+  High LD (r² > 0.8): 32 pairs
+
+THEMIS:
+  Variants: 2
+  Mean r²: 0.984
+  Max r²: 1.000
+  High LD (r² > 0.8): 2 pairs
+
+SHANK3:
+  Variants: 2
+  Mean r²: 1.000
+  Max r²: 1.000
+  High LD (r² > 0.8): 2 pairs
+
+OXTR:
+  Variants: 70
+  Mean r²: 0.182
+  Max r²: 1.000
+  High LD (r² > 0.8): 141 pairs
+
+MAPK3:
+  Variants: 143
+  Mean r²: 0.413
+  Max r²: 1.000
+  High LD (r² > 0.8): 1723 pairs
+
+TAOK2:
+  Variants: 7
+  Mean r²: 0.877
+  Max r²: 1.000
+  High LD (r² > 0.8): 18 pairs
+
+ALDOA:
+  Variants: 10
+  Mean r²: 0.320
+  Max r²: 1.000
+  High LD (r² > 0.8): 14 pairs
+
+PPP4C:
+  Variants: 2
+  Mean r²: 1.000
+  Max r²: 1.000
+  High LD (r² > 0.8): 0 pairs
+
+TBX6:
+  Variants: 103
+  Mean r²: 0.479
+  Max r²: 1.000
+  High LD (r² > 0.8): 1010 pairs
+
+YPEL3:
+  Variants: 119
+  Mean r²: 0.644
+  Max r²: 1.000
+  High LD (r² > 0.8): 1883 pairs

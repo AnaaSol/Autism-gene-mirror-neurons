@@ -1,0 +1,102 @@
+REAL GTEx v8 eQTL EXTRACTION SUMMARY
+==================================================
+
+Date: 2025-11-24 18:59:52.054212
+Source: GTEx Analysis V8
+Genome Build: GRCh38 (hg38/b38)
+
+TOTAL STATISTICS:
+  Total eQTL associations: 2686
+  Unique variants: 697
+  Genes analyzed: 13
+  Tissues: 13
+
+PER-GENE SUMMARY:
+
+  ALDOA: 11 total eQTLs
+    - Brain_Frontal_Cortex_BA9: 1
+    - Brain_Nucleus_accumbens_basal_ganglia: 10
+
+  CACNA1C: 271 total eQTLs
+    - Brain_Cerebellar_Hemisphere: 135
+    - Brain_Cerebellum: 134
+    - Brain_Putamen_basal_ganglia: 1
+    - Brain_Substantia_nigra: 1
+
+  CHD8: 20 total eQTLs
+    - Brain_Cerebellar_Hemisphere: 20
+
+  CNTNAP2: 43 total eQTLs
+    - Brain_Cerebellum: 23
+    - Brain_Cortex: 2
+    - Brain_Hippocampus: 18
+
+  FOXP2: 37 total eQTLs
+    - Brain_Anterior_cingulate_cortex_BA24: 8
+    - Brain_Nucleus_accumbens_basal_ganglia: 29
+
+  KCTD13: No eQTLs found
+
+  MAPK3: 593 total eQTLs
+    - Brain_Anterior_cingulate_cortex_BA24: 24
+    - Brain_Cerebellar_Hemisphere: 12
+    - Brain_Cerebellum: 100
+    - Brain_Cortex: 196
+    - Brain_Frontal_Cortex_BA9: 122
+    - Brain_Hippocampus: 139
+
+  MECP2: No eQTLs found
+
+  OXTR: 304 total eQTLs
+    - Brain_Amygdala: 10
+    - Brain_Anterior_cingulate_cortex_BA24: 10
+    - Brain_Caudate_basal_ganglia: 48
+    - Brain_Cerebellar_Hemisphere: 7
+    - Brain_Cerebellum: 8
+    - Brain_Cortex: 41
+    - Brain_Frontal_Cortex_BA9: 37
+    - Brain_Hippocampus: 14
+    - Brain_Hypothalamus: 13
+    - Brain_Nucleus_accumbens_basal_ganglia: 43
+    - Brain_Putamen_basal_ganglia: 42
+    - Brain_Spinal_cord_cervical_c-1: 28
+    - Brain_Substantia_nigra: 3
+
+  PPP4C: 2 total eQTLs
+    - Brain_Cerebellar_Hemisphere: 2
+
+  SHANK3: 2 total eQTLs
+    - Brain_Cortex: 2
+
+  TAOK2: 8 total eQTLs
+    - Brain_Cerebellar_Hemisphere: 8
+
+  TBX6: 639 total eQTLs
+    - Brain_Amygdala: 25
+    - Brain_Anterior_cingulate_cortex_BA24: 2
+    - Brain_Caudate_basal_ganglia: 90
+    - Brain_Cerebellar_Hemisphere: 12
+    - Brain_Cerebellum: 79
+    - Brain_Cortex: 175
+    - Brain_Frontal_Cortex_BA9: 52
+    - Brain_Hippocampus: 43
+    - Brain_Hypothalamus: 6
+    - Brain_Nucleus_accumbens_basal_ganglia: 80
+    - Brain_Putamen_basal_ganglia: 54
+    - Brain_Spinal_cord_cervical_c-1: 21
+
+  THEMIS: 2 total eQTLs
+    - Brain_Frontal_Cortex_BA9: 2
+
+  YPEL3: 754 total eQTLs
+    - Brain_Caudate_basal_ganglia: 68
+    - Brain_Cerebellar_Hemisphere: 172
+    - Brain_Cerebellum: 197
+    - Brain_Cortex: 82
+    - Brain_Nucleus_accumbens_basal_ganglia: 114
+    - Brain_Spinal_cord_cervical_c-1: 121
+
+P-VALUE STATISTICS:
+  Min: 1.52e-30
+  Median: 5.07e-07
+  Max: 1.80e-04

@@ -1,0 +1,79 @@
+GWAS-eQTL MATCHING SUMMARY
+==================================================
+
+Date: 2025-11-24 19:04:46.125068
+GWAS: Grove et al. 2019 (iPSYCH-PGC ASD)
+eQTL: GTEx v8 Brain Tissues
+
+TOTAL STATISTICS:
+  Matched variants: 2561
+  Genes: 11
+  Tissues: 13
+
+PER-GENE SUMMARY:
+
+CACNA1C:
+  Variants: 265
+  Tissues: ['Cerebellar Hemisphere', 'Cerebellum', 'Putamen (basal ganglia)']
+  Min GWAS p-value: 7.26e-03
+  Min eQTL p-value: 2.98e-17
+
+CHD8:
+  Variants: 20
+  Tissues: ['Cerebellar Hemisphere']
+  Min GWAS p-value: 5.17e-01
+  Min eQTL p-value: 2.68e-09
+
+CNTNAP2:
+  Variants: 21
+  Tissues: ['Cerebellum', 'Hippocampus']
+  Min GWAS p-value: 1.93e-02
+  Min eQTL p-value: 5.16e-06
+
+FOXP2:
+  Variants: 8
+  Tissues: ['Anterior cingulate cortex (BA24)']
+  Min GWAS p-value: 3.06e-02
+  Min eQTL p-value: 1.70e-05
+
+THEMIS:
+  Variants: 2
+  Tissues: ['Frontal Cortex (BA9)']
+  Min GWAS p-value: 1.14e-01
+  Min eQTL p-value: 5.10e-06
+
+SHANK3:
+  Variants: 2
+  Tissues: ['Cortex']
+  Min GWAS p-value: 6.25e-01
+  Min eQTL p-value: 1.10e-05
+
+OXTR:
+  Variants: 302
+  Tissues: ['Amygdala', 'Anterior cingulate cortex (BA24)', 'Caudate (basal ganglia)', 'Cerebellar Hemisphere', 'Cerebellum', 'Cortex', 'Frontal Cortex (BA9)', 'Hippocampus', 'Hypothalamus', 'Nucleus accumbens (basal ganglia)', 'Putamen (basal ganglia)', 'Spinal cord (cervical c-1)', 'Substantia nigra']
+  Min GWAS p-value: 3.52e-02
+  Min eQTL p-value: 2.51e-19
+
+MAPK3:
+  Variants: 576
+  Tissues: ['Anterior cingulate cortex (BA24)', 'Cerebellar Hemisphere', 'Cerebellum', 'Cortex', 'Frontal Cortex (BA9)', 'Hippocampus']
+  Min GWAS p-value: 5.97e-03
+  Min eQTL p-value: 1.07e-19
+
+ALDOA:
+  Variants: 4
+  Tissues: ['Frontal Cortex (BA9)', 'Nucleus accumbens (basal ganglia)']
+  Min GWAS p-value: 1.47e-01
+  Min eQTL p-value: 2.09e-05
+
+TBX6:
+  Variants: 625
+  Tissues: ['Amygdala', 'Anterior cingulate cortex (BA24)', 'Caudate (basal ganglia)', 'Cerebellar Hemisphere', 'Cerebellum', 'Cortex', 'Frontal Cortex (BA9)', 'Hippocampus', 'Hypothalamus', 'Nucleus accumbens (basal ganglia)', 'Putamen (basal ganglia)', 'Spinal cord (cervical c-1)']
+  Min GWAS p-value: 5.97e-03
+  Min eQTL p-value: 4.08e-15
+
+YPEL3:
+  Variants: 736
+  Tissues: ['Caudate (basal ganglia)', 'Cerebellar Hemisphere', 'Cerebellum', 'Cortex', 'Nucleus accumbens (basal ganglia)', 'Spinal cord (cervical c-1)']
+  Min GWAS p-value: 5.97e-03
+  Min eQTL p-value: 1.52e-30
