@@ -1,6 +1,0 @@
-variant_id,gene,chromosome,position,colocalization_score,distance_to_tss_kb,brain_tissue,regulatory_region,regulatory_score,validation_priority,recommended_assays,predicted_mechanism
-rsFOXP2_7_114294028,FOXP2,7,114294028,12.786236,3.537,Brain_Frontal_Cortex_BA9,Promoter_Distal,0.84,0.9786602830336201,"Promoter activity, ChIP-seq, CRISPR editing","Regulación de targets downstream: CNTNAP2, SRPX2, MET"
-rsFOXP1_3_71110207,FOXP1,3,71110207,11.383794,5.544,Brain_Cortex,Promoter_Distal,0.77,0.8827577044566068,"Promoter activity, ChIP-seq, CRISPR editing",Co-regulación con FOXP2 en desarrollo neural
-rsFOXP2_7_114290452,FOXP2,7,114290452,9.463692,0.039,Brain_Anterior_Cingulate_BA24,Promoter_Proximal,1.0,0.855737602814699,"Promoter activity, ChIP-seq, CRISPR editing","Regulación de targets downstream: CNTNAP2, SRPX2, MET"
-rsCNTNAP2_7_147031685,CNTNAP2,7,147031685,10.711493,4.769,Brain_Anterior_Cingulate_BA24,Promoter_Distal,0.7,0.8363818717748241,"Promoter activity, ChIP-seq, CRISPR editing",Modulación de función sináptica y conectividad
-rsCACNA1C_12_2638178,CACNA1C,12,2638178,9.816281,7.224,Brain_Cerebellum,Promoter_Distal,0.63,0.7636546239249413,"Promoter activity, ChIP-seq, CRISPR editing",Alteración de señalización de calcio neuronal
